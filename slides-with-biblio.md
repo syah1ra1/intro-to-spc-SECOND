@@ -14,9 +14,9 @@ hash: true
 ::: {.column width="50%"}
 
 ## Sample slides
-#### PlaceHolderName
+#### NURIN SYAHIRA BINTI MOHD SHUKRI
 #### Universiti Malaysia Perlis
-#### [placeholder@email.com](mailto:placeholder@email.com)
+#### [s251043273@studentmail.unimap.edu.my](mailto:s251043273@studentmail.unimap.edu.my)
 
 <audio id="bg-music" src="media/audio/sb.m4a" loop></audio>
 
