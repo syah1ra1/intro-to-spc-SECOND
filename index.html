@@ -562,51 +562,13 @@
 
 <div class="columns">
 <div class="column" style="width:50%;">
-<h2 id="sample-slides">Sample slides</h2>
+<h2 id="statistical-analysis-process-control-applications">Statistical
+Analysis &amp; Process Control Applications</h2>
 <h4 id="nurin-syahira-binti-mohd-shukri">NURIN SYAHIRA BINTI MOHD
 SHUKRI</h4>
 <h4 id="universiti-malaysia-perlis">Universiti Malaysia Perlis</h4>
 <h4 id="s251043273studentmail.unimap.edu.my"><a
 href="mailto:s251043273@studentmail.unimap.edu.my">s251043273@studentmail.unimap.edu.my</a></h4>
-<audio id="bg-music" src="media/audio/sb.m4a" loop>
-</audio>
-<div id="audio-credit"
-style="position: absolute; bottom: 40px; right: 20px; font-size: 0.6em; opacity: 0.6;">
-<p>Music: “Adrift” by Scott Buckley (CC BY 4.0)</p>
-</div>
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const audio = document.getElementById('bg-music');
-    const credit = document.getElementById('audio-credit');
-
-    // hide credit by default
-    credit.style.display = 'none';
-
-    const test = new Audio('media/audio/bgm.mp3');
-
-    test.addEventListener('canplaythrough', () => {
-      // bgm.mp3 exists → use it, keep credit hidden
-      audio.src = 'media/audio/bgm.mp3';
-    }, { once: true });
-
-    test.addEventListener('error', () => {
-      // bgm.mp3 missing → sb.m4a will play → show credit
-      credit.style.display = 'block';
-    }, { once: true });
-
-    document.addEventListener('click', () => {
-      if (Reveal.getIndices().h === 0) {
-        audio.volume = 0.5;
-        audio.play();
-      }
-    }, { once: true });
-
-    Reveal.on('slidechanged', (event) => {
-      if (event.indexh > 0) { audio.pause(); }
-      else { audio.play(); }
-    });
-  });
-</script>
 </div><div class="column" style="width:50%;">
 <p><img data-src="media/pics/logo1.png" /></p>
 </div>
@@ -616,10 +578,12 @@ style="position: absolute; bottom: 40px; right: 20px; font-size: 0.6em; opacity:
 
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="slide-one">Slide one</h3>
-<p><strong>Key Concepts:</strong> - Energy conservation per <span
-class="citation" data-cites="carnot1824">(1)</span>. - <span
-class="math inline">\(\Delta U = Q - W\)</span></p>
+<h3 id="foundation-concepts">Foundation Concepts</h3>
+<p><strong>Key Concepts:</strong> - Energy conservation principles
+derived from core statistical mechanics and engineering frameworks <span
+class="citation" data-cites="carnot1824">(1)</span>. - Thermodynamic
+baseline calculations: <span class="math display">\[\Delta U = Q -
+W\]</span></p>
 </div><div class="column" style="width:50%;">
 <p><img data-src="media/pics/sample.png" /></p>
 </div>
@@ -628,7 +592,7 @@ class="math inline">\(\Delta U = Q - W\)</span></p>
 <section class="slide level1">
 
 <p><span class="slide-title"
-data-title="My Hidden Slide Name"></span></p>
+data-title="System Overview Overview"></span></p>
 <p><img data-src="media/pics/wide.jpeg" /></p>
 </section>
 <section class="slide level1">
@@ -636,10 +600,12 @@ data-title="My Hidden Slide Name"></span></p>
 <div class="columns">
 <div class="column" style="width:50%;">
 <h3 id="the-master-equation">The Master Equation</h3>
-<p>The fundamental relation of thermodynamics:</p>
+<p>The fundamental relation of thermodynamics applied to system
+modeling:</p>
 <p><span class="math display">\[\Delta U = Q - W\]</span></p>
-<p>The work done <span class="math inline">\(W\)</span> is positive when
-the system expands against an external pressure.</p>
+<p>The work done <span class="math inline">\(W\)</span> is treated as
+positive when the system boundary expands against an external pressure
+vector.</p>
 </div><div class="column" style="width:50%;">
 <video data-src="media/videos/sample.mp4" data-autoplay loop muted width="100%">
 </video>
@@ -653,9 +619,10 @@ the system expands against an external pressure.</p>
 <h3 id="visualizing-the-gas-law">Visualizing the Gas Law</h3>
 <p><strong>Interactive Model:</strong></p>
 <ul>
-<li>P, V, and T relationships.</li>
-<li>Use the slider to adjust pressure.</li>
-<li>Observe the phase boundary.</li>
+<li>Examination of P, V, and T boundary relationships.</li>
+<li>Use the integrated slider interface to adjust localized pressure
+limits.</li>
+<li>Observe the phase transition boundaries in real time.</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/sample.html" width="100%" height="500px" style="border:none;" scrolling="no">
@@ -670,86 +637,19 @@ the system expands against an external pressure.</p>
 <h3 id="student-performance-insights">Student Performance Insights</h3>
 <p><strong>Key Observations:</strong></p>
 <ul>
-<li>Evaluation of student scores from the <code>bigclass</code>
+<li>Evaluation of student scores from the <code>bigclass</code> tracking
 dataset.</li>
-<li>Clear stratification observed between quantitative metrics.</li>
-<li>Measurement errors are bounded by <span
+<li>Clear stratification observed between quantitative metrics and
+performance tiers.</li>
+<li>Measurement variations and errors are bounded utilizing <span
 class="math inline">\(\epsilon\)</span> variation models.</li>
 </ul>
 <blockquote>
-<p>Note: Outliers can be filtered dynamically using the legend on the
-right.</p>
+<p>Note: Outliers can be filtered dynamically using the interactive
+legend on the right.</p>
 </blockquote>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/academic_analysis.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="student-performance-insights-1">Student Performance
-Insights</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Evaluation of student scores from the <code>bigclass</code>
-dataset.</li>
-<li>Clear stratification observed between quantitative metrics.</li>
-<li>Measurement errors are bounded by <span
-class="math inline">\(\epsilon\)</span> variation models.</li>
-</ul>
-<blockquote>
-<p>Note: Outliers can be filtered dynamically using the legend on the
-right.</p>
-</blockquote>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/academic_analysis.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="student-performance-insights-2">Student Performance
-Insights</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Evaluation of student scores from the <code>bigclass</code>
-dataset.</li>
-<li>Clear stratification observed between quantitative metrics.</li>
-<li>Measurement errors are bounded by <span
-class="math inline">\(\epsilon\)</span> variation models.</li>
-</ul>
-<blockquote>
-<p>Note: Outliers can be filtered dynamically using the legend on the
-right.</p>
-</blockquote>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/academic_analysis.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
 </iframe>
 </div>
 </div>
@@ -762,12 +662,12 @@ Math.</li>
 Analysis</h3>
 <p><strong>Key Observations:</strong></p>
 <ul>
-<li>This scatter plot visualizes the relationship between students’
-Mathematics and Verbal scores.</li>
-<li>Points are colored by ‘sex’ to observe any potential
-differences.</li>
-<li>Allows for quick identification of correlation or clusters in
-academic performance.</li>
+<li>This scatter plot visualizes the direct correlation between
+students’ Mathematics and Verbal scores.</li>
+<li>Data points are segmented by demographic attributes to observe
+behavioral clusters.</li>
+<li>Allows for swift tracking of performance correlations across
+different disciplines.</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/math_verbal_scatter.html" width="100%" height="500px" style="border:none;" scrolling="no">
@@ -779,39 +679,15 @@ academic performance.</li>
 
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="student-performance-insights-3">Student Performance
-Insights</h3>
+<h3 id="math-score-distribution">Math Score Distribution</h3>
 <p><strong>Key Observations:</strong></p>
 <ul>
-<li>Evaluation of student scores from the <code>bigclass</code>
-dataset.</li>
-<li>Clear stratification observed between quantitative metrics.</li>
-<li>Measurement errors are bounded by <span
-class="math inline">\(\epsilon\)</span> variation models.</li>
-</ul>
-<blockquote>
-<p>Note: Outliers can be filtered dynamically using the legend on the
-right.</p>
-</blockquote>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/academic_analysis.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-1">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
+<li>Frequency distribution tracking mathematics scores from the target
+population.</li>
+<li>The histogram isolates student density spikes across explicit
+testing ranges.</li>
+<li>Essential for mapping foundational capabilities and baseline
+capability metrics.</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
@@ -823,461 +699,16 @@ Math.</li>
 
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="math-vs-verbal-score-analysis-1">Math vs Verbal Score
-Analysis</h3>
+<h3 id="math-score-distribution-optimized-model">Math Score Distribution
+(Optimized Model)</h3>
 <p><strong>Key Observations:</strong></p>
 <ul>
-<li>This scatter plot visualizes the relationship between students’
-Mathematics and Verbal scores.</li>
-<li>Points are colored by ‘sex’ to observe any potential
-differences.</li>
-<li>Allows for quick identification of correlation or clusters in
-academic performance.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_verbal_scatter.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-2">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="student-performance-insights-4">Student Performance
-Insights</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Evaluation of student scores from the <code>bigclass</code>
-dataset.</li>
-<li>Clear stratification observed between quantitative metrics.</li>
-<li>Measurement errors are bounded by <span
-class="math inline">\(\epsilon\)</span> variation models.</li>
-</ul>
-<blockquote>
-<p>Note: Outliers can be filtered dynamically using the legend on the
-right.</p>
-</blockquote>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/academic_analysis.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-3">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-vs-verbal-score-analysis-2">Math vs Verbal Score
-Analysis</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>This scatter plot visualizes the relationship between students’
-Mathematics and Verbal scores.</li>
-<li>Points are colored by ‘sex’ to observe any potential
-differences.</li>
-<li>Allows for quick identification of correlation or clusters in
-academic performance.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_verbal_scatter.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-4">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="student-performance-insights-5">Student Performance
-Insights</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Evaluation of student scores from the <code>bigclass</code>
-dataset.</li>
-<li>Clear stratification observed between quantitative metrics.</li>
-<li>Measurement errors are bounded by <span
-class="math inline">\(\epsilon\)</span> variation models.</li>
-</ul>
-<blockquote>
-<p>Note: Outliers can be filtered dynamically using the legend on the
-right.</p>
-</blockquote>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/academic_analysis.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-5">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-vs-verbal-score-analysis-3">Math vs Verbal Score
-Analysis</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>This scatter plot visualizes the relationship between students’
-Mathematics and Verbal scores.</li>
-<li>Points are colored by ‘sex’ to observe any potential
-differences.</li>
-<li>Allows for quick identification of correlation or clusters in
-academic performance.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_verbal_scatter.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-6">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="student-performance-insights-6">Student Performance
-Insights</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Evaluation of student scores from the <code>bigclass</code>
-dataset.</li>
-<li>Clear stratification observed between quantitative metrics.</li>
-<li>Measurement errors are bounded by <span
-class="math inline">\(\epsilon\)</span> variation models.</li>
-</ul>
-<blockquote>
-<p>Note: Outliers can be filtered dynamically using the legend on the
-right.</p>
-</blockquote>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/academic_analysis.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-7">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-vs-verbal-score-analysis-4">Math vs Verbal Score
-Analysis</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>This scatter plot visualizes the relationship between students’
-Mathematics and Verbal scores.</li>
-<li>Points are colored by ‘sex’ to observe any potential
-differences.</li>
-<li>Allows for quick identification of correlation or clusters in
-academic performance.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_verbal_scatter.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-8">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="student-performance-insights-7">Student Performance
-Insights</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Evaluation of student scores from the <code>bigclass</code>
-dataset.</li>
-<li>Clear stratification observed between quantitative metrics.</li>
-<li>Measurement errors are bounded by <span
-class="math inline">\(\epsilon\)</span> variation models.</li>
-</ul>
-<blockquote>
-<p>Note: Outliers can be filtered dynamically using the legend on the
-right.</p>
-</blockquote>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/academic_analysis.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-vs-verbal-score-analysis-5">Math vs Verbal Score
-Analysis</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>This scatter plot visualizes the relationship between students’
-Mathematics and Verbal scores.</li>
-<li>Points are colored by ‘sex’ to observe any potential
-differences.</li>
-<li>Allows for quick identification of correlation or clusters in
-academic performance.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_verbal_scatter.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-9">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="student-performance-insights-8">Student Performance
-Insights</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Evaluation of student scores from the <code>bigclass</code>
-dataset.</li>
-<li>Clear stratification observed between quantitative metrics.</li>
-<li>Measurement errors are bounded by <span
-class="math inline">\(\epsilon\)</span> variation models.</li>
-</ul>
-<blockquote>
-<p>Note: Outliers can be filtered dynamically using the legend on the
-right.</p>
-</blockquote>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/academic_analysis.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-10">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-vs-verbal-score-analysis-6">Math vs Verbal Score
-Analysis</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>This scatter plot visualizes the relationship between students’
-Mathematics and Verbal scores.</li>
-<li>Points are colored by ‘sex’ to observe any potential
-differences.</li>
-<li>Allows for quick identification of correlation or clusters in
-academic performance.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_verbal_scatter.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-11">Math Score Distribution</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>Visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<iframe data-src="media/plots/math_score_histogram.html" width="100%" height="500px" style="border:none;" scrolling="no">
-</iframe>
-</div>
-</div>
-</section>
-<section class="slide level1">
-
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="math-score-distribution-new">Math Score Distribution (New)</h3>
-<p><strong>Key Observations:</strong></p>
-<ul>
-<li>A new visualization of student mathematics scores from the
-<code>bigclass</code> dataset.</li>
-<li>The histogram shows the frequency of scores across different
-ranges.</li>
-<li>This helps in understanding the overall academic performance in
-Math.</li>
+<li>Iterated histogram visualization containing updated metrics from the
+<code>bigclass</code> array.</li>
+<li>Allows verification of model stability across shifting dataset
+configurations.</li>
+<li>Demonstrates process optimization and comparative stability
+analysis.</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/math_score_histogram_new.html" width="100%" height="500px" style="border:none;" scrolling="no">
