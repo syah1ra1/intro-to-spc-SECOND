@@ -13,12 +13,10 @@ hash: true
 :::: {.columns}
 ::: {.column width="50%"}
 
-## Sample slides
+## Statistical Analysis & Process Control Applications
 #### NURIN SYAHIRA BINTI MOHD SHUKRI
 #### Universiti Malaysia Perlis
 #### [s251043273@studentmail.unimap.edu.my](mailto:s251043273@studentmail.unimap.edu.my)
-
-<!-- __AUDIO_INTRO_DO_NOT_TOUCH__ -->
 
 :::
 
@@ -32,10 +30,11 @@ hash: true
 
 :::: {.columns}
 ::: {.column width="50%"}
-### Slide one
+### Foundation Concepts
 **Key Concepts:**
-- Energy conservation per @carnot1824.
-- $\Delta U = Q - W$
+- Energy conservation principles derived from core statistical mechanics and engineering frameworks @carnot1824.
+- Thermodynamic baseline calculations:
+  $$\Delta U = Q - W$$
 :::
 
 ::: {.column width="50%"}
@@ -45,7 +44,7 @@ hash: true
 
 ---
 
-<span class="slide-title" data-title="My Hidden Slide Name"></span>
+<span class="slide-title" data-title="System Overview Overview"></span>
 
 ![](media/pics/wide.jpeg)
 
@@ -54,11 +53,11 @@ hash: true
 :::: {.columns}
 ::: {.column width="50%"}
 ### The Master Equation
-The fundamental relation of thermodynamics:
+The fundamental relation of thermodynamics applied to system modeling:
 
 $$\Delta U = Q - W$$
 
-The work done $W$ is positive when the system expands against an external pressure.
+The work done $W$ is treated as positive when the system boundary expands against an external pressure vector.
 :::
 
 ::: {.column width="50%"}
@@ -74,9 +73,9 @@ The work done $W$ is positive when the system expands against an external pressu
 ### Visualizing the Gas Law
 **Interactive Model:**
 
-- P, V, and T relationships.
-- Use the slider to adjust pressure.
-- Observe the phase boundary.
+- Examination of P, V, and T boundary relationships.
+- Use the integrated slider interface to adjust localized pressure limits.
+- Observe the phase transition boundaries in real time.
 :::
 
 ::: {.column width="50%"}
@@ -90,7 +89,6 @@ The work done $W$ is positive when the system expands against an external pressu
 :::
 ::::
 
-
 ---
 
 :::: {.columns}
@@ -98,11 +96,11 @@ The work done $W$ is positive when the system expands against an external pressu
 ### Student Performance Insights
 **Key Observations:**
 
-- Evaluation of student scores from the `bigclass` dataset.
-- Clear stratification observed between quantitative metrics.
-- Measurement errors are bounded by $\epsilon$ variation models.
+- Evaluation of student scores from the `bigclass` tracking dataset.
+- Clear stratification observed between quantitative metrics and performance tiers.
+- Measurement variations and errors are bounded utilizing $\epsilon$ variation models.
 
-> Note: Outliers can be filtered dynamically using the legend on the right.
+> Note: Outliers can be filtered dynamically using the interactive legend on the right.
 :::
 
 ::: {.column width="50%"}
@@ -115,83 +113,6 @@ The work done $W$ is positive when the system expands against an external pressu
 </iframe>
 :::
 ::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Student Performance Insights
-**Key Observations:**
-
-- Evaluation of student scores from the `bigclass` dataset.
-- Clear stratification observed between quantitative metrics.
-- Measurement errors are bounded by $\epsilon$ variation models.
-
-> Note: Outliers can be filtered dynamically using the legend on the right.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/academic_analysis.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Student Performance Insights
-**Key Observations:**
-
-- Evaluation of student scores from the `bigclass` dataset.
-- Clear stratification observed between quantitative metrics.
-- Measurement errors are bounded by $\epsilon$ variation models.
-
-> Note: Outliers can be filtered dynamically using the legend on the right.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/academic_analysis.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_score_histogram.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
 
 ---
 
@@ -200,9 +121,9 @@ The work done $W$ is positive when the system expands against an external pressu
 ### Math vs Verbal Score Analysis
 **Key Observations:**
 
-- This scatter plot visualizes the relationship between students' Mathematics and Verbal scores.
-- Points are colored by 'sex' to observe any potential differences.
-- Allows for quick identification of correlation or clusters in academic performance.
+- This scatter plot visualizes the direct correlation between students' Mathematics and Verbal scores.
+- Data points are segmented by demographic attributes to observe behavioral clusters.
+- Allows for swift tracking of performance correlations across different disciplines.
 :::
 
 ::: {.column width="50%"}
@@ -216,33 +137,6 @@ The work done $W$ is positive when the system expands against an external pressu
 :::
 ::::
 
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Student Performance Insights
-**Key Observations:**
-
-- Evaluation of student scores from the `bigclass` dataset.
-- Clear stratification observed between quantitative metrics.
-- Measurement errors are bounded by $\epsilon$ variation models.
-
-> Note: Outliers can be filtered dynamically using the legend on the right.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/academic_analysis.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
 ---
 
 :::: {.columns}
@@ -250,9 +144,9 @@ The work done $W$ is positive when the system expands against an external pressu
 ### Math Score Distribution
 **Key Observations:**
 
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
+- Frequency distribution tracking mathematics scores from the target population.
+- The histogram isolates student density spikes across explicit testing ranges.
+- Essential for mapping foundational capabilities and baseline capability metrics.
 :::
 
 ::: {.column width="50%"}
@@ -266,539 +160,24 @@ The work done $W$ is positive when the system expands against an external pressu
 :::
 ::::
 
-
 ---
 
 :::: {.columns}
 ::: {.column width="50%"}
-### Math vs Verbal Score Analysis
+### Math Score Distribution (Optimized Model)
 **Key Observations:**
 
-- This scatter plot visualizes the relationship between students' Mathematics and Verbal scores.
-- Points are colored by 'sex' to observe any potential differences.
-- Allows for quick identification of correlation or clusters in academic performance.
+- Iterated histogram visualization containing updated metrics from the `bigclass` array.
+- Allows verification of model stability across shifting dataset configurations.
+- Demonstrates process optimization and comparative stability analysis.
 :::
 
 ::: {.column width="50%"}
 <iframe 
-  data-src="media/plots/math_verbal_scatter.html" 
+  data-src="media/plots/math_score_histogram_new.html" 
   width="100%" 
   height="500px" 
   style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_score_histogram.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Student Performance Insights
-**Key Observations:**
-
-- Evaluation of student scores from the `bigclass` dataset.
-- Clear stratification observed between quantitative metrics.
-- Measurement errors are bounded by $\epsilon$ variation models.
-
-> Note: Outliers can be filtered dynamically using the legend on the right.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/academic_analysis.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_score_histogram.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math vs Verbal Score Analysis
-**Key Observations:**
-
-- This scatter plot visualizes the relationship between students' Mathematics and Verbal scores.
-- Points are colored by 'sex' to observe any potential differences.
-- Allows for quick identification of correlation or clusters in academic performance.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_verbal_scatter.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_score_histogram.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Student Performance Insights
-**Key Observations:**
-
-- Evaluation of student scores from the `bigclass` dataset.
-- Clear stratification observed between quantitative metrics.
-- Measurement errors are bounded by $\epsilon$ variation models.
-
-> Note: Outliers can be filtered dynamically using the legend on the right.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/academic_analysis.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_score_histogram.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math vs Verbal Score Analysis
-**Key Observations:**
-
-- This scatter plot visualizes the relationship between students' Mathematics and Verbal scores.
-- Points are colored by 'sex' to observe any potential differences.
-- Allows for quick identification of correlation or clusters in academic performance.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_verbal_scatter.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_score_histogram.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Student Performance Insights
-**Key Observations:**
-
-- Evaluation of student scores from the `bigclass` dataset.
-- Clear stratification observed between quantitative metrics.
-- Measurement errors are bounded by $\epsilon$ variation models.
-
-> Note: Outliers can be filtered dynamically using the legend on the right.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/academic_analysis.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_score_histogram.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math vs Verbal Score Analysis
-**Key Observations:**
-
-- This scatter plot visualizes the relationship between students' Mathematics and Verbal scores.
-- Points are colored by 'sex' to observe any potential differences.
-- Allows for quick identification of correlation or clusters in academic performance.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_verbal_scatter.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe 
-  data-src="media/plots/math_score_histogram.html" 
-  width="100%" 
-  height="500px" 
-  style="border:none;" 
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Student Performance Insights
-**Key Observations:**
-
-- Evaluation of student scores from the `bigclass` dataset.
-- Clear stratification observed between quantitative metrics.
-- Measurement errors are bounded by $\epsilon$ variation models.
-
-> Note: Outliers can be filtered dynamically using the legend on the right.
-:::
-
-::: {.column width="50%"}
-<iframe
-  data-src="media/plots/academic_analysis.html"
-  width="100%"
-  height="500px"
-  style="border:none;"
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math vs Verbal Score Analysis
-**Key Observations:**
-
-- This scatter plot visualizes the relationship between students' Mathematics and Verbal scores.
-- Points are colored by 'sex' to observe any potential differences.
-- Allows for quick identification of correlation or clusters in academic performance.
-:::
-
-::: {.column width="50%"}
-<iframe
-  data-src="media/plots/math_verbal_scatter.html"
-  width="100%"
-  height="500px"
-  style="border:none;"
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe
-  data-src="media/plots/math_score_histogram.html"
-  width="100%"
-  height="500px"
-  style="border:none;"
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Student Performance Insights
-**Key Observations:**
-
-- Evaluation of student scores from the `bigclass` dataset.
-- Clear stratification observed between quantitative metrics.
-- Measurement errors are bounded by $\epsilon$ variation models.
-
-> Note: Outliers can be filtered dynamically using the legend on the right.
-:::
-
-::: {.column width="50%"}
-<iframe
-  data-src="media/plots/academic_analysis.html"
-  width="100%"
-  height="500px"
-  style="border:none;"
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe
-  data-src="media/plots/math_score_histogram.html"
-  width="100%"
-  height="500px"
-  style="border:none;"
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math vs Verbal Score Analysis
-**Key Observations:**
-
-- This scatter plot visualizes the relationship between students' Mathematics and Verbal scores.
-- Points are colored by 'sex' to observe any potential differences.
-- Allows for quick identification of correlation or clusters in academic performance.
-:::
-
-::: {.column width="50%"}
-<iframe
-  data-src="media/plots/math_verbal_scatter.html"
-  width="100%"
-  height="500px"
-  style="border:none;"
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution
-**Key Observations:**
-
-- Visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe
-  data-src="media/plots/math_score_histogram.html"
-  width="100%"
-  height="500px"
-  style="border:none;"
-  scrolling="no">
-</iframe>
-:::
-::::
-
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Score Distribution (New)
-**Key Observations:**
-
-- A new visualization of student mathematics scores from the `bigclass` dataset.
-- The histogram shows the frequency of scores across different ranges.
-- This helps in understanding the overall academic performance in Math.
-:::
-
-::: {.column width="50%"}
-<iframe
-  data-src="media/plots/math_score_histogram_new.html"
-  width="100%"
-  height="500px"
-  style="border:none;"
   scrolling="no">
 </iframe>
 :::
